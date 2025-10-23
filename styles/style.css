@@ -98,7 +98,7 @@
 
 .aligned-text_center {
   text-align: center;
-  padding-left: 60px; 
+  padding-left: 60px;
   line-height: 1.15;
   margin-top: 20px;
   letter-spacing: 30px;
@@ -307,12 +307,6 @@
   font-weight: 400;
   font-size: 18px;
   text-underline-offset: 4px;
-  list-style: none;
-}
-
-.footer__social-list {
-  display: flex;
-  justify-content: space-evenly;
   list-style: none;
 }
 

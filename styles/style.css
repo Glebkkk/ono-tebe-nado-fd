@@ -1,17 +1,3 @@
-  h1,
-  h2, 
-  h3, 
-  h4, 
-  h5, 
-  h6, 
-  p, 
-  ul, 
-  ol, 
-  blockquote {
-    margin: 0;
-    padding: 0;
-  }
-
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
@@ -142,7 +128,7 @@
 
 .bet-button {
   background: transparent;
-  border: 1px solid #FFFFFF;
+  border: 1px solid currentColor;
   color: #FFFFFF;
   padding: 13px 32px;
   font-size: 22px;
@@ -152,7 +138,6 @@
 
 .lots {
   margin: 180px 24px 155px;
-  min-height: 723px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -235,7 +220,6 @@
 
 .about {
   margin: 0 24px 146px;
-  min-height: 595px;
   display: grid;
   grid-template-columns: 334px 1fr;
 }
